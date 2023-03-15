@@ -8,8 +8,7 @@ Write a JavaScript function called `isDate` that takes an input and returns true
 
 ```
 isDate(new Date()); // true
-isDate("2022-04-01"); // false
-isDate(1234567890); // false
+isDate("not a date"); // false
 ```
 
 ## Acceptance Criteria
